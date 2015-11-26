@@ -1,0 +1,249 @@
+/* the geometry of the page */
+/* the size of the crop marks*/
+/* the size of bleed */
+@import "assets/css/reset.css";
+/**
+ * Computation
+ */
+/* EXTRA SPACE AROUND THE PAGE: BLEED + CROP */
+/* GEOMETRY OF THE PAPER SHEET */
+/* SIZE OF SPREAD */
+/**
+ * DEFINITION OF THE PAPER SHEET
+ */
+@page {
+  size: 297mm 213mm;
+  margin: 0;
+}
+/**
+ * CANVAS
+ */
+@media all {
+  body {
+    margin: 0;
+  }
+  .paper {
+    width: 297mm;
+    height: 208mm;
+    box-sizing: border-box;
+    /* Crop marks */
+    padding: 0mm;
+    counter-increment: page-counter;
+    /* utile ou non? pour éviter qu'un papier soit coupé par le format de la
+        * page lors de la conversion et l'arrondis des unités */
+    page-break-inside: avoid;
+    overflow: hidden;
+    /* Crop marks */
+    background-image: -webkit-linear-gradient(90deg, black 0, black 100%), -webkit-linear-gradient(0deg, black 0, black 100%), -webkit-linear-gradient(90deg, black 0, black 100%), -webkit-linear-gradient(0deg, black 0, black 100%), -webkit-linear-gradient(90deg, black 0, black 100%), -webkit-linear-gradient(0deg, black 0, black 100%), -webkit-linear-gradient(90deg, black 0, black 100%), -webkit-linear-gradient(0deg, black 0, black 100%);
+    background-size: 0mm 1px, 1px 0mm, 0mm 1px, 1px 0mm, 0mm 1px, 1px 0mm, 0mm 1px, 1px 0mm;
+    background-position: left 0mm, 0mm top, right 0mm, 297mm top, right 208mm, 297mm bottom, left 208mm, 0mm bottom;
+    background-repeat: no-repeat;
+  }
+  .h2p-page {
+    width: 297mm;
+    height: 208mm;
+    box-sizing: border-box;
+    position: absolute;
+    text-rendering: optimizeLegibility;
+  }
+}
+@media screen {
+  body {
+    background-color: #F0F0F0 !important;
+  }
+  #pages {
+    width: 297mm;
+    height: 208mm;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spread #pages {
+    width: 594mm;
+    height: 416mm;
+  }
+  .paper {
+    /* centrer la page à l'écran */
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+@media print {
+  html {
+    width: 297mm;
+  }
+  body {
+    /* Allows printing of background colors */
+    background-color: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  #pages {
+    position: absolute;
+    top: 0;
+  }
+}
+/**
+ * Helpers
+ */
+.region-break {
+  /* Apply this class to an element to put it on a new region.
+     * Hint:
+     * You can also use an empty <div class="page-break"></div>
+     * if you want to put manual page breaks without attaching it to an HTML element
+     */
+  -webkit-region-break-before: always;
+}
+.header,
+.body,
+.footer {
+  box-sizing: border-box;
+}
+/* __________________________________ HEADER __________________________________ */
+.header {
+  /*position: absolute;*/
+  /*margin-top: @page-margin-top;*/
+  margin: 0;
+  padding-top: 15mm;
+  height: 20mm;
+  text-align: left;
+  padding-right: 15mm !important;
+}
+.header:after {
+  content: "The riddle of the real city";
+  right: 15mm !important;
+}
+/* __________________________________ MAIN SECTION __________________________________ */
+.body {
+  height: 173mm;
+  width: 100%;
+  padding-top: 19.5px;
+  overflow: hidden;
+}
+#my-story {
+  width: 297mm;
+}
+/* __________________________________ FOOTER __________________________________ */
+.footer {
+  margin: 0;
+  width: 100%;
+  height: 5mm;
+  text-align: center;
+}
+.footer:after {
+  content: counter(page-counter);
+}
+/* for spreads only */
+.paper:nth-child(odd) .header {
+  text-align: right;
+}
+.paper:nth-child(odd) .header,
+.paper:nth-child(odd) .body,
+.paper:nth-child(odd) .footer {
+  padding-left: 15mm;
+  padding-right: 15mm;
+}
+.paper:nth-child(even) .header,
+.paper:nth-child(even) .body,
+.paper:nth-child(even) .footer {
+  padding-left: 15mm;
+  padding-right: 15mm;
+}
+body {
+  text-rendering: optimizeLegibility;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Avoids headings to be cut or to be orphans.
+     * But it doesn't seem to work
+     * if the element after has a page-break-inside avoid. It tries its best! */
+  -webkit-region-break-inside: avoid;
+  -webkit-region-break-after: avoid;
+  break-inside: avoid;
+  break-after: avoid;
+}
+/* AN EXAMPLE TO AVOID PAGE BREAK INSIDE,
+ * HERE NO PARAGRAPH WILL BE CUT,
+ * BUT YOU MIGHT WANT TO DEACTIVATE THIS */
+p {
+  /*-webkit-region-break-inside: avoid;*/
+}
+* {
+  -webkit-font-feature-settings: "liga", "dlig", "clig", "kern";
+}
+.debug .header {
+  outline: 1pt solid pink;
+}
+.debug .body {
+  outline: 1pt solid purple;
+}
+.debug .footer {
+  outline: 1pt solid pink;
+}
+/* __________________________________ IMAGES __________________________________ */
+/* Use those classes for images to fit width or height of parent elements or both. */
+img.fit-height {
+  height: 100%;
+}
+img.fit-width {
+  width: 100%;
+}
+@font-face {
+  font-family: "Inknut Antiqua";
+  src: url("assets/fonts/InknutAntiqua-Regular.ttf");
+}
+@font-face {
+  font-family: "Museo Sans";
+  src: url("assets/fonts/MuseoSans_500.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans";
+  src: url("assets/fonts/MuseoSans_500_Italic.otf");
+  font-style: italic;
+}
+/* -------------------------------------------- VARIABLES ----------------------------------------- */
+/* -------------------------------------------- FLOW ----------------------------------------- */
+.recipient {
+  flow-from: myStory;
+}
+#main {
+  flow-into: myStory;
+}
+/* -------------------------------------------- GENERIC CLASSES ----------------------------------------- */
+html,
+body {
+  width: 267mm;
+}
+body {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 15px;
+  line-height: 19.5px;
+}
+#main {
+  width: 267mm;
+}
+h1,
+h2 {
+  color: inherit;
+}
+p {
+  margin: 0px;
+}
+p + p {
+  text-indent: 39px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+em {
+  font-style: italic;
+}
