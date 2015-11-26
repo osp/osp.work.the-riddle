@@ -5,7 +5,7 @@
 
 /* EXTRA SPACE AROUND THE PAGE: BLEED + CROP */
 // TODO: find a more appropriate name
-@crop: @crop-size + @bleed; 
+@crop: @crop-size + @bleed;
 
 /* GEOMETRY OF THE PAPER SHEET */
 @paper-width: @page-width + ( @crop * 2 );
@@ -20,7 +20,7 @@
  * DEFINITION OF THE PAPER SHEET
  */
 @page {
-    size: @paper-width (@paper-height + 5); 
+    size: @paper-width (@paper-height + 5);
     margin: 0;
 }
 
@@ -34,7 +34,7 @@
         margin: 0;
     }
     .paper {
-        width: @paper-width; 
+        width: @paper-width;
         height: @paper-height;
         box-sizing: border-box;
 
@@ -60,7 +60,7 @@
             -webkit-linear-gradient(90deg, black 0, black 100%),
             -webkit-linear-gradient(0deg, black 0, black 100%)
         ;
-        background-size: 
+        background-size:
             @crop-size 1px,
             1px @crop-size,
             @crop-size 1px,
@@ -98,14 +98,14 @@
     }
 
     #pages {
-        width: @paper-width; 
+        width: @paper-width;
         height: @paper-height;
 
         margin-left: auto;
         margin-right: auto;
     }
     .spread #pages {
-        width: @paper-width * 2; 
+        width: @paper-width * 2;
         height: @paper-height * 2;
     }
     .paper {
@@ -140,8 +140,8 @@
 
 .region-break {
     /* Apply this class to an element to put it on a new region.
-     * Hint: 
-     * You can also use an empty <div class="page-break"></div> 
+     * Hint:
+     * You can also use an empty <div class="page-break"></div>
      * if you want to put manual page breaks without attaching it to an HTML element
      */
     -webkit-region-break-before: always;

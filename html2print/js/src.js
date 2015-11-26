@@ -2,8 +2,7 @@
     'use strict';
 
     var src =         {
-        "abonnements": "content.html", 
-
+        "excursion7": "/chapters/boek1-excursion7.html",
     }
 
     var docs = new HTML2print.Docs;

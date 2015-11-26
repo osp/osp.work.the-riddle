@@ -17,7 +17,7 @@
     $viewport.addEventListener("load", function(event) {
         var $contentDoc = this.contentDocument;
         var $doc = this.contentDocument.getElementsByTagName('html')[0]
-        
+
         function switchPreview(event) {
             if(this.checked) {
                 $doc.classList.add("preview");
@@ -64,7 +64,7 @@
         function setZoom(event) {
             var zoomLevel = this.value / 100;
             var elt = $doc.querySelector("#pages");
-            
+
             elt.style.webkitTransform = "scale(" + zoomLevel + ")";
             elt.style.webkitTransformOrigin = "0 0";
         }

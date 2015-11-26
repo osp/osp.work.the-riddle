@@ -28,7 +28,7 @@ window.HTML2print = window.HTML2print || {};
         var hash = window.location.hash;
         if (hash && hash.substring(0,2) === "#!") {
             var src = hash.substring(2);
-            viewport.src = src; 
+            viewport.src = src;
             select.value = src;
         } else {
             var stateObj = { doc: select.value };

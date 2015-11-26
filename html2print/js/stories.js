@@ -32,7 +32,7 @@
         console.log('no support for css regions; loading the polyfill');
         var script = document.createElement('script');
         //script.setAttribute('src', '../../vendors/css-regions-polyfill/bin/css-regions-polyfill.js');
-        script.setAttribute('src', '../../js/css-regions-polyfill-custom-medor.js');
+        script.setAttribute('src', '/assets/lib/css-regions.min.js');
         document.getElementsByTagName('head')[0].appendChild(script);
     };
 })();
