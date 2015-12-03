@@ -1,0 +1,10 @@
+Create proxy vitualtenvironment && install requirements
+-------------------------------------------------------
+
+virtualenv proxy/venv
+. proxy/venv/bin/activate
+pip install -r proxy/requirements.txt
+
+run proxy
+---------
+./start-proxy
