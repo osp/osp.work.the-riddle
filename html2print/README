@@ -8,3 +8,7 @@ pip install -r proxy/requirements.txt
 run proxy
 ---------
 ./start-proxy
+
+run html2print
+--------------
+./start
