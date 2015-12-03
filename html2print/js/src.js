@@ -2,7 +2,7 @@
     'use strict';
 
     var src =         {
-        "excursion7": "/chapters/boek1-excursion7.html",
+        "appendix5": "/chapters/boek3-appendix5.html",
     }
 
     var docs = new HTML2print.Docs;
