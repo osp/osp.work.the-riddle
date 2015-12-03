@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+. proxy/venv/bin/activate
+proxy/proxy.py
