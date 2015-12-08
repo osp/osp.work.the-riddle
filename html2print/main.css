@@ -12,8 +12,8 @@
  * DEFINITION OF THE PAPER SHEET
  */
 @page {
-  size: 297mm 213mm;
-  margin: 0;
+  size: 297mm 420mm;
+  margin: 20pt;
 }
 /**
  * CANVAS
@@ -24,7 +24,7 @@
   }
   .paper {
     width: 297mm;
-    height: 208mm;
+    height: 420mm;
     box-sizing: border-box;
     /* Crop marks */
     padding: 0mm;
@@ -41,47 +41,47 @@
   }
   .h2p-page {
     width: 297mm;
-    height: 208mm;
+    height: 420mm;
     box-sizing: border-box;
     position: absolute;
     text-rendering: optimizeLegibility;
   }
 }
 @media screen {
-  body {
-    background-color: #F0F0F0 !important;
-  }
-  #pages {
-    width: 297mm;
-    height: 208mm;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .spread #pages {
-    width: 594mm;
-    height: 416mm;
-  }
-  .paper {
-    /* centrer la page à l'écran */
-    background-color: white;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+          body {
+            background-color: #F0F0F0 !important;
+          }
+          #pages {
+            width: 297mm;
+            height: 420mm;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .spread #pages {
+            width: 297mm;
+            height: 420mm;
+          }
+          .paper {
+            /* centrer la page à l'écran */
+            background-color: white;
+            margin-top: 1em;
+            margin-bottom: 1em;
+          }
 }
 @media print {
-  html {
-    width: 297mm;
-  }
-  body {
-    /* Allows printing of background colors */
-    background-color: white;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-  #pages {
-    position: absolute;
-    top: 0;
-  }
+            html {
+              width: 297mm;
+            }
+            body {
+              /* Allows printing of background colors */
+              background-color: white;
+              -webkit-print-color-adjust: exact;
+              print-color-adjust: exact;
+            }
+            #pages {
+              position: absolute;
+              top: 0;
+            }
 }
 /**
  * Helpers
@@ -115,7 +115,7 @@
 }
 /* __________________________________ MAIN SECTION __________________________________ */
 .body {
-  height: 173mm;
+  height: 420mm;
   width: 100%;
   padding-top: 19.5px;
   overflow: hidden;
@@ -220,7 +220,7 @@ img.fit-width {
 /* -------------------------------------------- GENERIC CLASSES ----------------------------------------- */
 html,
 body {
-  width: 267mm;
+  width: 297mm !important;
 }
 body {
   font-family: 'Inknut Antiqua', serif;
@@ -228,7 +228,7 @@ body {
   line-height: 19.5px;
 }
 #main {
-  width: 267mm;
+  width: 297mm;
 }
 h1,
 h2 {
