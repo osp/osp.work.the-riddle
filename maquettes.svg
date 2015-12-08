@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -16,8 +17,6 @@
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="maquettes.svg">
-  <defs
-     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.82005986"
-     inkscape:cx="372.04724"
-     inkscape:cy="526.1811"
+     inkscape:zoom="0.2364971"
+     inkscape:cx="-72.828544"
+     inkscape:cy="-369.89234"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +34,16 @@
      inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true" />
+  <defs
+     id="defs4" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -44,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,6 +60,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <image
+       sodipodi:absref="/media/ludi/data/work/osp.work.the-riddle/__pict/extrait-polder.png"
+       xlink:href="__pict/extrait-polder.png"
+       y="682.91113"
+       x="26.194637"
+       id="image3691"
+       preserveAspectRatio="none"
+       height="76.532257"
+       width="122.6162" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3336"
@@ -64,7 +81,7 @@
            x="-1551.4286"
            y="12.362205" /></flowRegion><flowPara
          id="flowPara3342">Book I Chapter II. 2 Wisconst (Mathēsis), or the art of what is certain 	                                </flowPara><flowPara
-         id="flowPara3344"></flowPara><flowPara
+         id="flowPara3344" /><flowPara
          id="flowPara3346">Given its affinity with the ideas of Leone Battista Alberti (1404-1472)1 and Pietro Cataneo (c. 1510-c. 1574)2, On the Ordering of Cities (1599) is usually situated within the tradition of the ideal city, the tradition of the Città Ideale. ‘His (Stevin’s) proposals regarding the city resonate so deeply with the (…) Italian treatises that his book is best understood in the light of this tradition.’3 Viewed as a typical intellectual product of its time, the work enjoys a far greater reputation than it does when seen as in purely pragmatic terms. These interpretations have long dismissed it as either a collection of utopian and literary fantasies or a meticulous study of the Dutch city.    The interpretation as part of the tradition of the ideal city inserts the document into the classifications deployed in the history of ideas with its penchant for creating series. It is therefore all the more surprising that immediately after this insertion On the Ordering of Cities (1599) is found to deviate from this Italian and French dominated tradition as well and that precisely herein lies its meaning. The deviation is thought to be the starting point for a new series, that of the Dutch city and Dutch town planning in the seventeenth century.    These conclusions are arrived at by adopting a typical art-historical approach, by concentrating on the forms of the cities and comparing them. Stevin is thought to have prised a new type, the rectangular city, out of a tradition epitomized by the circular form and the polygon with radials.4The Città Ideale was a typical product of Renaissance culture. It was defined by the law of proportion and the epistèmè of the similitudes. Alberti was the first architect and theoretician who, for aesthetic reasons, drew up rules that pointed in the direction of an idealization of the city. Like his contemporary Filarete (1400-?), who surrounded his ideal city Sforzinda (c 1460) with a star shape inscribed within a circle [Fig. II.1], Alberti praised the circle and regular polygon as the most suitable shapes for the city. He drew on military arguments as well as an array of astrological, magi­cal and historical concepts that epitomized Renaissance culture. [See BOOK III, Appendix 5 Alberti: Mingling, Resemblance and ‘As If’] Equally characteristic was the design by Fran­cesco di Giorgio Martini (1439-1501/2) which proportioned the city to the scale and shape of the human body. Juxtaposed with a series of models of regular polygonal city plans, he drew a square with a circle inscribed within it, inside of which was a human figure. 5 [Fig. II. 2 and 3] This image of the city scaled to human dimensions had a profound impact on the theory and practice of town planning during the Renaissance. The comparison was Martini’s response to the relationship between microcosm and macrocosm, which was seen as a neo-Platonic structure: man’s body is a sign of God. This axis of representation was not autonomous, but played a central role in the web of similitudes spun between language and objects. The notion that every single phenomenon could be a sign of yet another phenomenon was the fundamental principle of knowledge (savoir) during the Renaissance. [Excursion 7: The Signs of the World] The ideal radi­al city usually consisted of right-angled streets which fanned out from a cen­tral square and which were sometimes linked by concen­tric streets with secondary squares. Much of the debate about the radial city took its cue from the works of Vitruvi­us. Although plans for rectangular grid patterns were known in the fifteenth century, the circular outline was consistently deemed superior, for both scientific and military reasons. Around the middle of the sixteenth century attention shifted from the city’s perimeter to its internal structure. The rectangular configuration became the dominant form. New-found wealth dictated this change, as did the fact that theorists began to take the actual city more seriously. Nonetheless, the model of the radial city remained the basis for the sophisticated perfection of fortress building, which severed all links with civilian architecture at this time. From then on the city, as an object of knowledge, was analysed in two fields, each of which developed along independent lines and often had to be reconciled within a specific design. The military engi­neer Francesco de Marchi (1504- 1576) fully accepted the city as a given and had little or no interest in the symbolic and emblematic meanings of the radial city. Nonetheless, his drawings show that he retained the circle as the ideal outline, albeit strictly for military reasons.    These developments justify the conclusion that Simon Stevin’s rectangular city evolved from this predilection for the principles of internal order. Although his treatise was the first and foremost dissertation in the Dutch-speaking world about the city as a whole, it was also the last to treat the city as a crystallization point of wealth and the defensible place combined. In Nieuwe vestingbouw op een natte of lage horis­ont (1685; New fortress building on wet or low ground/horizon) by Menno van Coehoorn (1641-1704)6 the detailed drawings of the fortifications featured no city plans at all. [Fig. II. 4]Why would Stevin’s plan represent an ideal city rather than something else? Why would it be a product of the Renaissance rather than of something else? Why would it be an item in a series rather than a unique web in which an array of historical chains and fields of knowledge have been condensed?</flowPara><flowPara
          id="flowPara3348" /><flowPara
          id="flowPara3350" /><flowPara
@@ -82,28 +99,28 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot3374"
        xml:space="preserve"
-       transform="translate(1602.8571,92.857137)"><flowRegion
+       transform="translate(1602.8571,210.66092)"><flowRegion
          id="flowRegion3376"><rect
            y="12.362205"
            x="-1551.4286"
-           height="844.28577"
-           width="437.14288"
+           height="708.4649"
+           width="441.30072"
            id="rect3378" /></flowRegion><flowPara
          id="flowPara3410"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Given its affinity with the ideas of Leone Battista Alberti (1404-1472)1 and Pietro Cataneo (c. 1510-c. 1574)2, On the Ordering of Cities (1599) is usually situated within the tradition of the ideal city, the tradition of the Città Ideale. ‘His (Stevin’s) proposals regarding the city resonate so deeply with the (…) Italian treatises that his book is best understood in the light of this tradition.’3 Viewed as a typical intellectual product of its time, the work enjoys a far greater reputation than it does when seen as in purely pragmatic terms. These interpretations have long dismissed it as either a collection of utopian and literary fantasies or a meticulous study of the Dutch city. </flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start">Given its affinity with the ideas of Leone Battista Alberti (1404-1472)1 and Pietro Cataneo (c. 1510-c. 1574)2, On the Ordering of Cities (1599) is usually situated within the tradition of the ideal city, the tradition of the Città Ideale. ‘His (Stevin’s) proposals regarding the city resonate so deeply with the (…) Italian treatises that his book is best understood in the light of this tradition.’3 Viewed as a typical intellectual product of its time, the work enjoys a far greater reputation than it does when seen as in purely pragmatic terms. These interpretations have long dismissed it as either a collection of utopian and literary fantasies or a meticulous study of the Dutch city. </flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
          id="flowPara3630">   The interpretation as part of the tradition of the ideal city inserts the document into the classifications deployed in the history of ideas with its penchant for creating series. It is therefore all the more surprising that immediately after this insertion On the Ordering of Cities (1599) is found to deviate from this Italian and French dominated tradition as well and that precisely herein lies its meaning. The deviation is thought to be the starting point for a new series, that of the Dutch city and Dutch town planning in the seventeenth century. </flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
          id="flowPara3632">   These conclusions are arrived at by adopting a typical art-historical approach, by concentrating on the forms of the cities and comparing them. Stevin is thought to have prised a new type, the rectangular city, out of a tradition epitomized by the circular form and the polygon with radials.4</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
-         id="flowPara3634"></flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
-         id="flowPara3636">The Città Ideale was a typical product of Renaissance culture. It was defined by the law of proportion and the epistèmè of the similitudes. Alberti was the first architect and theoretician who, for aesthetic reasons, drew up rules that pointed in the direction of an idealization of the city. Like his contemporary Filarete (1400-?), who surrounded his ideal city Sforzinda (c 1460) with a star shape inscribed within a circle [Fig. II.1], Alberti praised the circle and regular polygon as the most suitable shapes for the city. He drew on military arguments as well as an array of astrological, magi­cal and historical concepts that epitomized Renaissance culture. [See BOOK III, Appendix 5 Alberti: Mingling, Resemblance and ‘As If’] Equally characteristic was the design by Fran­cesco di Giorgio Martini (1439-1501/2) which proportioned the city to the scale and shape of the human body. Juxtaposed with a series of models of regular polygonal city plans, he drew a square with a circle inscribed within it, inside of which was a human figure. 5 [Fig. II. 2 and 3] This image of the city scaled to human dimensions had a profound impact on the theory and practice of town planning during the Renaissance. The comparison was Martini’s response to the relationship between microcosm and macrocosm, which was seen as a neo-Platonic structure: man’s body is a sign of God. This axis of representation was not autonomous, but played a central role in the web of similitudes spun between language and objects. The notion that every single phenomenon could be a sign of yet another phenomenon was the fundamental principle of knowledge (savoir) during the Renaissance. [Excursion 7: The Signs of the World] The ideal radi­al city usually consisted of right-angled streets which fanned out from a cen­tral square and which were sometimes linked by concen­tric streets with secondary squares. Much of the debate about the radial city took its cue from the works of Vitruvi­us. Although plans for rectangular grid patterns were known in the fifteenth century, the circular outline was consistently deemed superior, for both scientific and military reasons. </flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
+         id="flowPara3634" /><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
+         id="flowPara3636">                     The Città Ideale was a typical product of Renaissance          culture. It was defined by the law of proportion and the epistèmè of the similitudes. Alberti was the first architect and theoretician who, for aesthetic reasons, drew up rules that pointed in the direction of an idealization of the city. Like his contemporary Filarete (1400-?), who surrounded his ideal city Sforzinda (c 1460) with a star shape inscribed within a circle [Fig. II.1], Alberti praised the circle and regular polygon as the most suitable shapes for the city. He drew on military arguments as well as an array of astrological, magi­cal and historical concepts that epitomized Renaissance culture. [See BOOK III, Appendix 5 Alberti: Mingling, Resemblance and ‘As If’] Equally characteristic was the design by Fran­cesco di Giorgio Martini (1439-1501/2) which proportioned the city to the scale and shape of the human body. Juxtaposed with a series of models of regular polygonal city plans, he drew a square with a circle inscribed within it, inside of which was a human figure. 5 [Fig. II. 2 and 3] This image of the city scaled to human dimensions had a profound impact on the theory and practice of town planning during the Renaissance. The comparison was Martini’s response to the relationship between microcosm and macrocosm, which was seen as a neo-Platonic structure: man’s body is a sign of God. This axis of representation was not autonomous, but played a central role in the web of similitudes spun between language and objects. The notion that every single phenomenon could be a sign of yet another phenomenon was the fundamental principle of knowledge (savoir) during the Renaissance. [Excursion 7: The Signs of the World] The ideal radi­al city usually consisted of right-angled streets which fanned out from a cen­tral square and which were sometimes linked by concen­tric streets with secondary squares. Much of the debate about the radial city took its cue from the works of Vitruvi­us. Although plans for rectangular grid patterns were known in the fifteenth century, the circular outline was consistently deemed superior, for both scientific and military reasons. </flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
          id="flowPara3638" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
          id="flowPara3640" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Quattrocento Roman';-inkscape-font-specification:'Quattrocento Roman, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start"
          id="flowPara3642" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3412"
@@ -114,7 +131,7 @@
            height="57.142857"
            x="-588.57141"
            y="-224.78065" /></flowRegion><flowPara
-         id="flowPara3418"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3418" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3420"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
@@ -183,7 +200,7 @@
            height="337.14285"
            x="-80"
            y="929.50507" /></flowRegion><flowPara
-         id="flowPara3493"></flowPara></flowRoot>    <text
+         id="flowPara3493" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="325.80823"
@@ -193,7 +210,7 @@
          sodipodi:role="line"
          id="tspan3672"
          x="325.80823"
-         y="215.70486"></tspan></text>
+         y="215.70486" /></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3682"
@@ -204,7 +221,7 @@
            height="428.01755"
            x="525.57141"
            y="146.33078" /></flowRegion><flowPara
-         id="flowPara3688"></flowPara></flowRoot>    <text
+         id="flowPara3688" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="801.16101"
@@ -214,28 +231,22 @@
          sodipodi:role="line"
          id="tspan3692"
          x="801.16101"
-         y="585.32312"></tspan></text>
+         y="585.32312" /></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3702"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-84.87039,-15.316539)"><flowRegion
+       transform="translate(-84.87039,124.68346)"><flowRegion
          id="flowRegion3704"><rect
            id="rect3706"
-           width="148.76964"
-           height="785.30853"
+           width="107.19182"
+           height="660.57507"
            x="590.20081"
            y="130.47829" /></flowRegion><flowPara
          id="flowPara3708"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">The Signs of the World     								    		1130</flowPara><flowPara
-         id="flowPara3710"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">In de Renaissance is de regel van het weten de gelijkenis van de tekens. Alle uitspraken worden beheerst door de stilzwijgende aanname dat de wereld overdekt is met tekens die ontcijferd moeten worden. Deze tekens kunnen overeenkomsten en verwantschappen onthullen, maar zijn ook zelf vormen van gelijkenis. Kennen is interpreteren, d.w.z. vanuit het zichtbare teken doordringen tot wat erdoor wordt uitgedrukt, en wat zonder dit teken stom gebleven zou zijn. De tekens wijzen het verborgene echter slechts aan in zoverre ze er op lijken en men kan niet de tekens manipuleren, zonder invloed uit te oefenen op wat ze aanduiden. Een dergelijk denken is door en door correlatief, maar dat wil niet zeggen dat het minder praktikabele waarheid bevat dan ons moderne causale denken. Het is deze structuur van het teken die ten grondslag lag aan het magische weten, dat de top van zijn succes bereikte bij de filosoof-geneesheer Paracelsus’, voor wie de magie ook de dieren betrof: ‘Zeg mij toch waarom de slang in Helvetia, Algoria en Suedia de Griekse woorden Osy, Osya, Osy begrijpt. (…) Nauwelijks hebben ze het woord gehoord of ze blijven tegen hun aard en hun aanleg in onbeweeglijk liggen’. Wanneer een typische renaissancearchitect zoals Alberti de wijsheid omtrent de goede vorm wil destilleren uit teksten uit de Oudheid, dan vat hij de taal van die teksten op als ‘teken van de dingen’. Er bestaat voor hem geen verschil tussen de merktekens die God geplaatst heeft op het oppervlak van de aarde (de planten, de vlekken op een gelaat, de vorm van de dieren, van mineralen, het licht in de ogen van de mens, etc.) om ons de daarin besloten geheimen te laten kennen, en de leesbare woorden die in de boeken uit de Oudheid staan. Maar in de natuur heeft God tekens rondgestrooid die duister zijn en nog ontcijferd moeten worden, terwijl de geleerden en kunstenaars uit de Oudheid reeds interpretaties hebben gegeven, die de geleerde van de Renaissance alleen nog maar hoeft te verzamelen en te verknopen. Het erfgoed van de Oudheid is daarom net als de natuur zelf een gebied om te vertolken. Het gaat erom hier en daar tekens te ontcijferen en die langzaam tot spreken brengen. Wanneer Alberti voorstelt de natuur te lezen waarin zich de werkelijke en bestaande vormen ophouden, is dit voor hem in de grond van de zaak hetzelfde als het lezen van de geschriften uit de Oudheid, of het bestuderen van de vormen van hun architectuur, hun stedenbouw, of hun kunst.Een van de bekendste begrippen uit het palet van de gelijkenissen is in de vijftiende eeuw de aemulatio. (John Shearman, Mannerism (1990)) Voor de kunstenaars en architecten van de klassieke tijd duidde het op een verhouding van naijver, edele wedijver, overdrijving en overtreffing met de meesters uit de Oudheid (en de eigen tijd), terwijl het in de wetenschap duidde op gelijkenis vanwege een type nabuurschap dat geen plaats en tijd kent. De aemulatio werkt op afstand, maar beweegt niet: ze is als een spiegel en het spiegelbeeld. Dankzij de aemulatio kan men dingen nabootsen, die zich ophouden in de diepte van de tijd en de verste uithoeken van de kosmos. De kunstenaars en de  wetenschappers van de Renaissance en het Maniërisme verhouden zich tot de werken van de Oudheid volgens een dergelijke complexe logica, die zowel spiegeling, gelijkenis, nabuurschap, als wedijver en overtreffing impliceert. De aemulatio is echter onder geen beding historistisch.. Nergens duidt het begrip op een historische ontwikkeling en nergens is de geschiedenis het grondprincipe voor de verklaring van de wereld. Integendeel, de aemulatio wordt geboren uit het zijn, dat wordt dubbelgevouwen waardoor de uiteinden ervan tegenover elkaar komen te staan. Haar metafoor is de tweeling: er is gelijkenis en gelijkwaardigheid en het is moeilijk te zeggen, welke van de twee het model en welke de kopie is.   Binnen dit stelsel van gelijkenissen dat in principe alle kanten op kan gaan -alles kan immers een teken van iets anders zijn-, doet zich een bevoorrecht punt voor, dat we terugvinden in de geïdealiseerde vestingvorm van Francesco di Giorgio Martini, maar ook in de Vitruviaanse mens van Leonardo Da Vinci (ong.1486) en heel vaag bij Alberti, wanneer hij zegt dat de vorm van een gebouw structureel analoog moet zijn aan het menselijke lichaam. Door dit van analogieën verzadigde punt heen verknopen zich de verbanden, zonder dat ze erdoor veranderen. Dit punt is de mens. Hij heeft overeenkomsten met de hemel, de planeten en de sterren, maar ook met de aarde, de dieren en de planten, de onweersbuien, de metalen en de stalactieten. Rechtop staat hij tussen de vele facetten van de wereld en zijn relaties met het firmament. Zijn gelaat is ten opzichte van zijn lichaam wat het aanschijn van de hemel voor de ether is; zijn bloed pulseert door zijn aderen, zoals de sterren voortgaan op hun baan; de zeven openingen in zijn gelaat correleren met de zeven planeten. Aan de andere kant is hij genadeloos van de wereld: zijn vlees is een aardkluit; zijn botten zijn rotsen; zijn aderen zijn rivieren; zijn blaas is de zee; zijn zeven voornaamste leden zijn de zeven metalen die verborgen zijn in de mijnen. Steeds is het lichaam van de mens voorstelbaar als de ene helft van de atlas van de wereld. </flowPara><flowPara
-         id="flowPara3712"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start" /><flowPara
-         id="flowPara3714"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start" /><flowPara
          id="flowPara3716"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRoot>    <text
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.25px;line-height:122.00000286%;font-family:'Work Sans';-inkscape-font-specification:'Work Sans, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start">In de Renaissance is de regel van het weten de gelijkenis van de tekens. Alle uitspraken worden beheerst door de stilzwijgende aanname dat de wereld overdekt is met tekens die ontcijferd moeten worden. Deze tekens kunnen overeenkomsten en verwantschappen onthullen, maar zijn ook zelf vormen van gelijkenis. Kennen is interpreteren, d.w.z. vanuit het zichtbare teken doordringen tot wat erdoor wordt uitgedrukt, en wat zonder dit teken stom gebleven zou zijn. De tekens wijzen het verborgene echter slechts aan in zoverre ze er op lijken en men kan niet de tekens manipuleren, zonder invloed uit te oefenen op wat ze aanduiden. Een dergelijk denken is door en door correlatief, maar dat wil niet zeggen dat het minder praktikabele waarheid bevat dan ons moderne causale denken. Het is deze structuur van het teken die ten grondslag lag aan het magische weten, dat de top van zijn succes bereikte bij de filosoof-geneesheer Paracelsus’, voor wie de magie ook de dieren betrof: ‘Zeg mij toch waarom de slang in Helvetia, Algoria en Suedia de Griekse woorden Osy, Osya, Osy begrijpt. (…) Nauwelijks hebben ze het woord gehoord of ze blijven tegen hun aard en hun aanleg in onbeweeglijk liggen’. Wanneer een </flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="25.607893"
@@ -283,5 +294,108 @@
          x="25.607893"
          id="tspan3738"
          sodipodi:role="line">10</tspan></text>
-  </g>
+    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3415"
+       xml:space="preserve"
+       transform="translate(1711.2309,544.55185)"><flowRegion
+         id="flowRegion3417"><rect
+           y="-513.35205"
+           x="-1657.1428"
+           height="214.28572"
+           width="620"
+           id="rect3419" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'Ostrich Sans';-inkscape-font-specification:'Ostrich Sans, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3421">2 Wisconst or </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'Ostrich Sans';-inkscape-font-specification:'Ostrich Sans, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3423">the art of what </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'Ostrich Sans';-inkscape-font-specification:'Ostrich Sans, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3425">is certain 	   </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3427"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3429"><rect
+           id="rect3431"
+           width="105.33044"
+           height="72.068199"
+           x="507.24924"
+           y="1457.0529" /></flowRegion><flowPara
+         id="flowPara3433" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3435"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3437"><rect
+           id="rect3439"
+           width="63.752636"
+           height="74.84005"
+           x="541.8974"
+           y="948.41766" /></flowRegion><flowPara
+         id="flowPara3441" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3443"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3445"><rect
+           id="rect3447"
+           width="123.3475"
+           height="145.52232"
+           x="496.16183"
+           y="890.20874" /></flowRegion><flowPara
+         id="flowPara3449" /></flowRoot>    <rect
+       id="rect3432"
+       width="747.5105"
+       height="1053.6863"
+       x="805.71063"
+       y="-1.3241194"
+       style="fill:#e6e6e6;stroke:#808080" />
+    <rect
+       style="fill:#e6e6e6;stroke:#808080"
+       y="-1.3241194"
+       x="1553.2212"
+       height="1053.6863"
+       width="747.5105"
+       id="rect3434" />
+    <flowRoot
+       transform="translate(743.05316,544.55185)"
+       xml:space="preserve"
+       id="flowRoot3433"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3435"><rect
+           id="rect3437"
+           width="620"
+           height="214.28572"
+           x="-1657.1428"
+           y="-513.35205" /></flowRegion><flowPara
+         id="flowPara3439"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start">2 WISCONST OR </flowPara><flowPara
+         id="flowPara3442"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start">THE ART OF WHAT </flowPara><flowPara
+         id="flowPara3444"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:LALDINE;-inkscape-font-specification:'LALDINE, Italic';text-align:start;writing-mode:lr;text-anchor:start">IS CERTAIN 	   </flowPara></flowRoot>    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3666"
+       xml:space="preserve"
+       transform="translate(743.05316,867.27776)"><flowRegion
+         id="flowRegion3668"><rect
+           y="-513.35205"
+           x="-1657.1428"
+           height="214.28572"
+           width="620"
+           id="rect3670" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Bold';text-align:start;writing-mode:lr;text-anchor:start"
+         id="flowPara3672">2 wisconst or </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Bold';text-align:start;writing-mode:lr;text-anchor:start"
+         id="flowPara3674">the art of what </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.5px;line-height:100%;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Bold';text-align:start;writing-mode:lr;text-anchor:start"
+         id="flowPara3676">is certain 	   </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3910"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3912"><rect
+           id="rect3914"
+           width="573.42987"
+           height="362.78217"
+           x="-353.02994"
+           y="1243.5055" /></flowRegion><flowPara
+         id="flowPara3916"
+         style="-inkscape-font-specification:'League Spartan, Bold';font-family:'League Spartan';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Given its affinity with the ideas of Leone Battista Alberti (1404-1472)1 and Pietro Cataneo (c. 1510-c. 1574)2, On the Ordering of Cities (1599) is usually situated within the tradition of the ideal city, the tradition of the Città Ideale. ‘His (Stevin’s) proposals regarding the city resonate so deeply with the (…) Italian treatises that his book is best understood in the light of this tradition.’3 Viewed as a typical intellectual product of its time, the work enjoys a far greater reputation than it does when seen as in purely pragmatic terms. These interpretations have long dismissed it as either a collection of utopian and literary fantasies or a meticulous study of the Dutch city. </flowPara></flowRoot>  </g>
 </svg>
