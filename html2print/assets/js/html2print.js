@@ -5,11 +5,11 @@ jQuery(document).ready(function($) {
     var content_height = $("#main").height();
     //var content_height = $("body").height();
     var body_height = $($("#master-page .body")[0]).height();
-    var nb_page = Math.ceil(content_height / body_height) + 6;
+    var nb_page = 9; // Math.ceil(content_height / body_height) + 6;
     console.log(content_height);
     console.log(body_height);
     console.log(nb_page);
-    
+
 
     // Cloning the master page
     for (i = 1; i <= nb_page; i++){

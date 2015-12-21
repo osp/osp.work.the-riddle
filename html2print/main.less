@@ -3,3 +3,36 @@
 @import "assets/css/html2print.less";
 @import "assets/css/page.less";
 @import "assets/css/typography.less";
+
+
+
+.main-area {
+  -webkit-flow-from: chapterFlow;
+          flow-from: chapterFlow;
+
+  position: absolute;
+  top: @small-page-height/18)*7;
+  margin: 0;
+  width: (@page-width/18)*12;
+  height: (@small-page-height/18)*9;
+}
+
+.excursion-area {
+  -webkit-flow-from: excursionFlow;
+          flow-from: excursionFlow;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: (@page-width/18)*14;
+  height: (@small-page-height/18)*6;
+}
+
+#flow-chapter  {
+  -webkit-flow-into: chapterFlow;
+        flow-into: chapterFlow;
+}
+
+#flow-excursion  {
+  -webkit-flow-into: excursionFlow;
+        flow-into: excursionFlow;
+}
