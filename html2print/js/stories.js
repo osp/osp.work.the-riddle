@@ -1,4 +1,6 @@
 ;(function(undefined) {
+    'use strict';
+
     // http://stackoverflow.com/questions/8567114/how-to-make-an-ajax-call-without-jquery
     function callAjax(url, callback){
         var xmlhttp;
@@ -18,12 +20,14 @@
     var stories = document.querySelectorAll('article[data-src]');
 
     for (var i = 0, l = stories.length; i < l; i ++) {
-        var v = stories[i];
-        var src = v.dataset.src;
+        (function () {
+          var story = stories[i];
+          var src = story.dataset.src;
 
-        callAjax(src, function(data) {
-            v.innerHTML = data;
-        });
+          callAjax(src, function(data) {
+              story.innerHTML = data;
+          });
+        })();
     }
 })();
 

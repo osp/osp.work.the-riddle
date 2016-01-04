@@ -1,5 +1,4 @@
-
-jQuery(document).ready(function($) {
+;(function(jQuery, $){
     // ________________________________ INIT __________________________________ //
     // Calculating the number of pages needed
     var content_height = $("#main").height();
@@ -10,15 +9,20 @@ jQuery(document).ready(function($) {
     console.log(body_height);
     console.log(nb_page);
 
+    $master = $("#master-page");
+    $container = $master.parent();
+    $master.detach();
 
-    // Cloning the master page
+    //Cloning the master page
     for (i = 1; i <= nb_page; i++){
-        $("#master-page").clone().attr("id","page-"+i).insertBefore($("#master-page"));
+       $page = $master.clone().attr("id","page-"+i);
+       $container.append($page);
     }
-    $("#master-page").attr("data-width", $(".paper:first-child").width()).hide();
-    $("#master-page .recipient").removeClass("recipient");
-    $("body").css("width", "100%");
-    $("html").css("width", "100%");
+
+    // $("#master-page").attr("data-width", $(".paper:first-child").width()).hide();
+    // $("#master-page .recipient").removeClass("recipient");
+    // $("body").css("width", "100%");
+    // $("html").css("width", "100%");
 
 
     //window.setTimeout(function(){
@@ -34,7 +38,7 @@ jQuery(document).ready(function($) {
     // document.getNamedFlow('myStory').addEventListener('regionfragmentchange', function(event) {
     //    console.log('regionFragmentChange');
     //});
-});
+})(jQuery, $);
 
 //;(function(undefined) {
 //    if (! Modernizr.regions) {
