@@ -1,24 +1,28 @@
-
-jQuery(document).ready(function($) {
+;(function(jQuery, $){
     // ________________________________ INIT __________________________________ //
     // Calculating the number of pages needed
     var content_height = $("#main").height();
     //var content_height = $("body").height();
     var body_height = $($("#master-page .body")[0]).height();
-    var nb_page = Math.ceil(content_height / body_height) + 6;
+    var nb_page = 9; // Math.ceil(content_height / body_height) + 6;
     console.log(content_height);
     console.log(body_height);
     console.log(nb_page);
-    
 
-    // Cloning the master page
+    $master = $("#master-page");
+    $container = $master.parent();
+    $master.detach();
+
+    //Cloning the master page
     for (i = 1; i <= nb_page; i++){
-        $("#master-page").clone().attr("id","page-"+i).insertBefore($("#master-page"));
+       $page = $master.clone().attr("id","page-"+i);
+       $container.append($page);
     }
-    $("#master-page").attr("data-width", $(".paper:first-child").width()).hide();
-    $("#master-page .recipient").removeClass("recipient");
-    $("body").css("width", "100%");
-    $("html").css("width", "100%");
+
+    // $("#master-page").attr("data-width", $(".paper:first-child").width()).hide();
+    // $("#master-page .recipient").removeClass("recipient");
+    // $("body").css("width", "100%");
+    // $("html").css("width", "100%");
 
 
     //window.setTimeout(function(){
@@ -34,7 +38,7 @@ jQuery(document).ready(function($) {
     // document.getNamedFlow('myStory').addEventListener('regionfragmentchange', function(event) {
     //    console.log('regionFragmentChange');
     //});
-});
+})(jQuery, $);
 
 //;(function(undefined) {
 //    if (! Modernizr.regions) {

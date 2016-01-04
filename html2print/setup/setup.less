@@ -1,6 +1,6 @@
 /* the geometry of the page */
-@page-width: 297mm;
-@page-height: 420mm;
+@page-width: 220mm;
+@page-height: 330mm;
 
 /* the size of the crop marks*/
 @crop-size: 5mm;
@@ -8,10 +8,10 @@
 /* the size of bleed */
 @bleed: 7mm;
 
-@page-margin-inside: 15mm;
-@page-margin-outside: 15mm;
-@page-margin-top: 15mm;
-@page-margin-bottom: 15mm;
+@page-margin-inside: (@page-width/18)*2;
+@page-margin-outside:(@page-width/18)*2;
+@page-margin-top:@page-height/18;
+@page-margin-bottom: (@page-height/18)*2;
 
 // Header & footer variables
 @header-height: 20mm;
