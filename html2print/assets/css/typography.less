@@ -1,37 +1,61 @@
 @font-face {
-    font-family: "Inknut Antiqua";
-    src: url("assets/fonts/InknutAntiqua-Regular.ttf");
+    font-family: "Ostrich";
+    src: url("../fonts/ostrich-bold.ttf");
 }
+
 @font-face {
-    font-family: "Museo Sans";
-    src: url("assets/fonts/MuseoSans_500.otf");
+    font-family: "Museo";
+    src: url("../fonts/MuseoSans_500.otf");
+    font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: "Museo Sans";
-    src: url("assets/fonts/MuseoSans_500_Italic.otf");
-    font-style: italic;
+    font-family: "Belgika";
+    src: url("../fonts/Belgika-8th.otf");
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 /* -------------------------------------------- VARIABLES ----------------------------------------- */
 @font-size: 15px;
 @line-height: 19.5px;
-@pink: #FF004A;
-@blue: #191970;
 
 /* -------------------------------------------- FLOW ----------------------------------------- */
 
-.recipient {
-    //-webkit-flow-from: myStory;
-            flow-from: myStory;
+
+.main {
+  // outline : 1px solid red;
+  -webkit-flow-from: chapterFlow;
+          flow-from: chapterFlow;
+  position: absolute;
+  top: (@page-height/18)*7;
+  margin: 0;
+  width: (@page-width/18)*12;
+  height: (@page-height/18)*9;
 }
 
-#main {
-    //-webkit-flow-into: myStory;
-            flow-into: myStory;
+.excursion {
+  // outline : 1px solid blue;
+  -webkit-flow-from: excursionFlow;
+          flow-from: excursionFlow;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: (@page-width/18)*14;
+  height: (@page-height/18)*6;
 }
 
+#flow-chapter  {
+  -webkit-flow-into: chapterFlow;
+        flow-into: chapterFlow;
+}
 
+#flow-excursion  {
+  -webkit-flow-into: excursionFlow;
+        flow-into: excursionFlow;
+}
 
 /* -------------------------------------------- GENERIC CLASSES ----------------------------------------- */
 html,
@@ -85,15 +109,32 @@ div.column25 { width: 25%; }
 
 
 /* -------------------------------------------- HEADER ----------------------------------------- */
-.header {
-    font-size: @font-size / 1.3;
-    text-align: left !important;
-    font-family: "Museo Sans";
-    font-style: normal !important;
+h2 {
+    font-family: Ostrich;
+    font-size:@font-size*3;
+    line-height:@line-height*2;
+}
 
-    &:after {
-        right: 0;
-        font-size: @font-size / 1.3;
-        font-style: normal !important;
-    }
+  /* -------------------------------------------- FOOTNOTES ----------------------------------------- */
+
+.footnoteRef{
+    color:green;
+  }
+
+  /* -------------------------------------------- IMAGES ----------------------------------------- */
+
+img{
+    width:150px;
+  }
+
+.figcaption {
+    font-family: 'Museo';
+  }
+
+  /* -------------------------------------------- SHAPE TEST ----------------------------------------- */
+
+  .shape {
+      float: left;
+      shape-outside: circle(10%);
+      shape-margin: 1em;
   }
