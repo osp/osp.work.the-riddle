@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8953426"
+     inkscape:zoom="1.0236582"
      inkscape:cx="-121.71881"
-     inkscape:cy="-258.14683"
+     inkscape:cy="-354.27619"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,12 +63,12 @@
     <image
        sodipodi:absref="/media/ludi/data/work/osp.work.the-riddle/__pict/extrait-polder.png"
        xlink:href="__pict/extrait-polder.png"
-       width="122.6162"
-       height="76.532257"
-       preserveAspectRatio="none"
-       id="image3691"
+       y="543.2077"
        x="31.926062"
-       y="543.2077" />
+       id="image3691"
+       preserveAspectRatio="none"
+       height="76.532257"
+       width="122.6162" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3336"
@@ -561,5 +561,23 @@
          id="flowPara3522"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr;text-anchor:start" /><flowPara
          id="flowPara3524"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr;text-anchor:start" /></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr;text-anchor:start" /></flowRoot>    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3511"
+       xml:space="preserve"
+       transform="translate(1241.3104,1462.4062)"><flowRegion
+         id="flowRegion3513"><rect
+           y="12.362205"
+           x="-1551.4286"
+           height="471.57452"
+           width="330.95435"
+           id="rect3515" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3517"> Given its affinity with the ideas of Leone Battista Alberti (1404-1472)1 and Pietro Cataneo (c. 1510-c. 1574)2, On the Ordering of Cities (1599) is usually situated within the tradition of the ideal city, the tradition of the Città Ideale. ‘His (Stevin’s) proposals regarding the city resonate so deeply with the (…) Italian treatises that his book is best understood in the light of this tradition.’3 Viewed as a typical intellectual product of its time, the work enjoys a far greater reputation than it does when seen as in purely pragmatic terms. These interpretations have long dismissed it as either a collection of utopian and literary fantasies or a meticulous study of the Dutch city. </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3519" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3526" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:150%;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowPara3528" /></flowRoot>  </g>
 </svg>
