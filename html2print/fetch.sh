@@ -1,3 +1,4 @@
+#! /bin/bash
 CHAPTER="I-2-2-mathesis"
 URL="https://mypads.framapad.org/p/i-2-2-mathesis-or-wisconst-gxqem7wd/export/txt"
 
