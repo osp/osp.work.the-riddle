@@ -1,14 +1,31 @@
 @font-face {
-    font-family: "Ostrich";
-    src: url("../fonts/ostrich-bold.ttf");
-}
-
-@font-face {
-    font-family: "Museo";
-    src: url("../fonts/MuseoSans_500.otf");
+    font-family: 'Ostrich';
+    src: url("../fonts/ostrich-bold.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Dauphine";
+    src: url("../../../../fonts/Dauphine-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dauphine";
+    src: url("../../../../fonts/Dauphine-Italic.otf") format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "DauphineDings";
+    src: url("../../../../fonts/Dauphine-Dings.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: "Belgika";
@@ -21,8 +38,9 @@
 /* -------------------------------------------- VARIABLES ----------------------------------------- */
 @font-size: 15px;
 @line-height: 19.5px;
+@color-canal: #12676a;
 
-/* -------------------------------------------- FLOW ----------------------------------------- */
+/* -------------------------------------------- FLOWS ----------------------------------------- */
 
 
 .main {
@@ -63,7 +81,6 @@ body {
     width: @page-width - (@page-margin-inside + @page-margin-outside);
 }
 body{
-	font-family: serif;
 	font-size: @font-size;
 	line-height: @line-height;
 }
@@ -115,26 +132,69 @@ h2 {
     line-height:@line-height*2;
 }
 
+/* -------------------------------------------- BOOK I ----------------------------------------- */
+
+.excursion p {
+    font-family : 'Dauphine';
+    color : @color-canal;
+}
+
+
+
   /* -------------------------------------------- FOOTNOTES ----------------------------------------- */
 
-.footnoteRef{
+  .content {
+              display: block;
+              margin: auto;
+              max-width: 150mm;
+              text-align: left;
+          }
+
+.inlineFootnote {
+    display: none;
+    color: brown;
+    cursor: zoom-out;
+}
+
+.inlineFootnote.expanded {
+    display: inline;
+}
+
+.footnoteRef {
     color:green;
-  }
+    position: relative;
+    top: -5px;
+    font-size: 80%;
+    margin-left: 4px;
+    cursor: zoom-in;
+}
+
+.footnoteRef.collapsed {
+    display: none;
+}
+
+
 
   /* -------------------------------------------- IMAGES ----------------------------------------- */
-
-img{
-    width:150px;
+  img {
+      max-width: 100%;
   }
+
+  img {
+    position: relative;
+    height: 24px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    cursor: zoom-in;
+}
+
+img.expanded {
+    height: inherit;
+    cursor: zoom-out;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 
 .figcaption {
-    font-family: 'Museo';
+    font-family: 'Dauphine';
   }
-
-  /* -------------------------------------------- SHAPE TEST ----------------------------------------- */
-
-  // .shape {
-  //     float: left;
-  //     shape-outside: circle(10%);
-  //     shape-margin: 1em;
-  // }
