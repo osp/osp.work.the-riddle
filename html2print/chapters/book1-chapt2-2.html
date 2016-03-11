@@ -27,11 +27,13 @@
         <article id="flow-excursion" data-src="/stories/1-2-2-excursion7.html"></article>
         <article id="flow-chapter" data-src="/stories/1-2-2-mathesis.html" ></article>
     </div>
-
-
-
-
-
+    <script type="text/javascript" src="/assets/lib/less-1.3.0.min.js"></script>
+    <script type="text/javascript" src="/assets/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/html2print.js"></script>
+    <script type="text/javascript" src="/assets/lib/jquery.xdomainajax.js"></script>
+    <script type="text/javascript" src="/setup/setup.js"></script>
+    <script type="text/javascript" src="/js/stories.js"></script>
+    <script type="text/javascript" src="/assets/lib/css-regions.min.js"></script>
     <script type="text/javascript">
         (function (window, document) {
             'use strict';
@@ -44,79 +46,66 @@
                 }
             }
 
-            var refList = document.getElementsByClassName('footnoteRef');
+            function collapseFootnotes () {
+                var refList = document.getElementsByClassName('footnoteRef');
 
-            for (var i=0; i < refList.length; i++) {
-                (function () {
-                    var ftntSpan,
-                        visible,
-                        ftntRef = refList[i];
+                for (var i=0; i < refList.length; i++) {
+                    (function () {
+                        var ftntSpan,
+                            visible,
+                            ftntRef = refList[i];
 
-                    ftntRef.addEventListener('click', function (e) {
-                        e.preventDefault();
+                        ftntRef.addEventListener('click', function (e) {
+                            e.preventDefault();
 
-                        if (!ftntSpan) {
-                            var refId   = this.id,
-                                ftntId  = refId.replace(/^fnref(\d+)$/, 'fn$1'),
-                                ftnt    = document.getElementById(ftntId),
-                                ftntTxt = ftnt.firstElementChild;
+                            if (!ftntSpan) {
+                                var refId   = this.id,
+                                    ftntId  = refId.replace(/^fnref(\d+)$/, 'fn$1'),
+                                    ftnt    = document.getElementById(ftntId),
+                                    ftntTxt = ftnt.firstElementChild;
 
-                            ftntSpan = document.createElement('span');
-                            ftntSpan.className = 'inlineFootnote'
-                            ftntSpan.innerHTML = '&nbsp;' + ftntTxt.innerHTML;
+                                ftntSpan = document.createElement('span');
+                                ftntSpan.className = 'inlineFootnote'
+                                ftntSpan.innerHTML = '&nbsp;' + ftntTxt.innerHTML;
 
-                            this.parentNode.insertAfter(ftntSpan, this);
+                                this.parentNode.insertAfter(ftntSpan, this);
 
-                            ftntSpan.addEventListener('click', function (e) {
-                                if (e.target.tagName != 'IMG') {
-                                    ftntSpan.classList.remove('expanded');
-                                    ftntRef.classList.remove('collapsed');
+                                ftntSpan.addEventListener('click', function (e) {
+                                    if (e.target.tagName != 'IMG') {
+                                        ftntSpan.classList.remove('expanded');
+                                        ftntRef.classList.remove('collapsed');
+                                    }
+                                });
+
+                                var ftntImgList = ftntSpan.getElementsByTagName('img');
+
+                                for (var i=0; i < ftntImgList.length; i++) {
+                                    ftntImgList[i].addEventListener('click', function (e) {
+                                        this.classList.toggle('expanded');
+                                    }, false);
                                 }
-                            });
-
-                            var ftntImgList = ftntSpan.getElementsByTagName('img');
-
-                            for (var i=0; i < ftntImgList.length; i++) {
-                                ftntImgList[i].addEventListener('click', function (e) {
-                                    this.classList.toggle('expanded');
-                                }, false);
                             }
-                        }
 
-                        ftntSpan.classList.add('expanded');
-                        ftntRef.classList.add('collapsed');
+                            ftntSpan.classList.add('expanded');
+                            ftntRef.classList.add('collapsed');
 
+                        }, false);
+                    })();
+                }
+
+                var imgList = document.getElementsByTagName('img'), img;
+
+                for (var i=0; i < imgList.length; i++) {
+                    imgList[i].addEventListener('click', function (e) {
+                        this.classList.toggle('expanded');
                     }, false);
-                })();
+                }
             }
-
-            var imgList = document.getElementsByTagName('img'), img;
-
-            for (var i=0; i < imgList.length; i++) {
-                imgList[i].addEventListener('click', function (e) {
-                    this.classList.toggle('expanded');
-                }, false);
-            }
-
+            
+            window.setTimeout(collapseFootnotes, "5000");
         })(window, document);
     </script>
-
-
-
-    <script type="text/javascript" src="/assets/lib/less-1.3.0.min.js"></script>
-    <script type="text/javascript" src="/assets/lib/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/html2print.js"></script>
-    <script type="text/javascript" src="/assets/lib/jquery.xdomainajax.js"></script>
-    <script type="text/javascript" src="/setup/setup.js"></script>
-    <script type="text/javascript" src="/js/stories.js"></script>
-    <script type="text/javascript" src="/assets/lib/css-regions.min.js"></script>
     <!-- <script src='/assets/js/shapes-polyfill.js'></script> -->
-
-
-
-
-
-
 </body>
 
 
